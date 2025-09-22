@@ -1,0 +1,25 @@
+{
+  "name": "outlook-backend",
+  "version": "1.0.0",
+  "description": "Automated Outlook account creation with Puppeteer",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node src/index.js --dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "outlook",
+    "automation",
+    "puppeteer",
+    "account-creation"
+  ],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "puppeteer": "^24.22.0",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2"
+  }
+}
